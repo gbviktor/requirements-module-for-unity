@@ -1,0 +1,12 @@
+{
+    "name": "com.gbviktor.requirements-system-for-unity",
+    "displayName": "UI Manager for Unity",
+    "author": { "name": "Victor Bisterfeld", "url": "https://gbviktor.de/requirements-system-for-unity" },
+    "version": "1.0.0",
+    "unity": "2022.1",
+    "description": "Requirements System: help you to easy create a requirements for all data in your Game, Achievements, Rewards, Quests and other things...",
+    "keywords": [ "runtime", "system","framework"],
+    "license": "MIT",
+    "dependencies": {
+    }
+}
