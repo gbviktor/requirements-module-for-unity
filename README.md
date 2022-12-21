@@ -32,7 +32,7 @@ In Asset Menu select *Montana Games > DB > Requirements Binder* this create a Sc
 
 ```csharp
 using Cysharp.Threading.Tasks;
-using MontanaGames.Systems.requirements;
+using MontanaGames.Systems.Requirements;
 
 public class SteamStatsProvider : IStatsProvider
 {            
@@ -82,4 +82,5 @@ public class RequermentsWithSteamExample : MonoBehaviour
 	}
 }
 ```
+
 
