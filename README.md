@@ -1,5 +1,5 @@
-# Requirements System (WIP)  
-this system help you to make any object/entity in your game has some requirements for Lock Object System, Achievements System or somethings else, like Rewards....
+# Requirements Module (WIP)  
+this module help you to make any object/entity in your game has some requirements for Lock Object System, Achievements System or somethings else, like Rewards....
 
 ---
 # Getting Started
