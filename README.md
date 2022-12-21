@@ -32,7 +32,7 @@ In Asset Menu select *Montana Games > DB > Requirements Binder* this create a Sc
 
 ```csharp
 using Cysharp.Threading.Tasks;
-using MontanaGames.Systems.Requerments;
+using MontanaGames.Systems.requirements;
 
 public class SteamStatsProvider : IStatsProvider
 {            
@@ -56,14 +56,14 @@ After, you can use your Scriptable Object of type *RequermentsBinderSystem* and 
 ```csharp
 public class RequermentsWithSteamExample : MonoBehaviour
 {
-	[SerializeField] private RequermentsBinderSystem requerments;
+	[SerializeField] private RequermentsBinderSystem requirements;
 	private SteamStatsProvider statsProvider = new SteamStatsProvider();
 	
 	void Start()
 	{
 		//get RequirementsComposition by key
 		string key = "sometestkey";
-		if (requerments.Get(key, out var reqs))
+		if (requirements.Get(key, out var reqs))
 		{
 			if (reqs.IsSatisfied(statsProvider))
 			{
